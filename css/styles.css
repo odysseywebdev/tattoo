@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.pexels.com/photos/2121348/pexels-photo-2121348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .navbar {
+    background-color: #000000;
+    overflow: hidden;
+    font-size: 25px;
+  }
+
+  .navbar-logo {
+    float:  left;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+  }
+
+  .navbar-links {
+    float: right;
+    padding: 10px;
+    list-style: none;
+  }
+
+  .navbar-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .navbar-links li:last-child {
+    margin-right: 0;
+  }
+
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .navbar-links a:hover {
+    color: #66ccff;
+  }
+
+  .responsive-section {
+
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+  }
+
+  .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 16%;
+    border-radius: 5px;
+
+  }
+  .content-1 {
+    background-color: #000000;
+    padding: 16%;
+    border-radius: 5px;
+
+
+
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+  }
+
+  .logo-container img {
+    height: 350px;
+    width: 350px;
+  }
+
+  .footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .footer-info,
+  .footer-company {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
